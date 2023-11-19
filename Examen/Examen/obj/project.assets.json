@@ -2891,19 +2891,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dern9\\.nuget\\packages\\": {}
+    "C:\\Users\\dern9\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dern9\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\Examen.csproj",
+      "projectUniqueName": "C:\\Users\\dern9\\Desktop\\Examen_Web\\Examen\\Examen\\Examen.csproj",
       "projectName": "Examen",
-      "projectPath": "C:\\Users\\dern9\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\Examen.csproj",
+      "projectPath": "C:\\Users\\dern9\\Desktop\\Examen_Web\\Examen\\Examen\\Examen.csproj",
       "packagesPath": "C:\\Users\\dern9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dern9\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\obj\\",
+      "outputPath": "C:\\Users\\dern9\\Desktop\\Examen_Web\\Examen\\Examen\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\dern9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2911,6 +2916,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
