@@ -11,6 +11,18 @@
       ],
       "UpstreamPathTemplate": "/ModelUsuarios",
       "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/DTOUsuarios",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7239
+        }
+      ],
+      "UpstreamPathTemplate": "/DTOUsuarios",
+      "UpstreamHttpMethod": []
     }
   ],
   "GlobalConfiguration": {
