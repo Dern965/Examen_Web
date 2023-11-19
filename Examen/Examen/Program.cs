@@ -1,4 +1,8 @@
+using Examen.Context;
+
 var builder = WebApplication.CreateBuilder(args);
+
+BancoContext database = new BancoContext();
 
 // Add services to the container.
 
@@ -15,6 +19,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+database.Database.EnsureCreated();
 
 app.UseHttpsRedirection();
 

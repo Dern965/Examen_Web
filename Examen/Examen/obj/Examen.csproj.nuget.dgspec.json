@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jorge\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\Examen.csproj": {}
+    "C:\\Users\\dern9\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\Examen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jorge\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\Examen.csproj": {
+    "C:\\Users\\dern9\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\Examen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorge\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\Examen.csproj",
+        "projectUniqueName": "C:\\Users\\dern9\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\Examen.csproj",
         "projectName": "Examen",
-        "projectPath": "C:\\Users\\jorge\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\Examen.csproj",
-        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorge\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\obj\\",
+        "projectPath": "C:\\Users\\dern9\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\Examen.csproj",
+        "packagesPath": "C:\\Users\\dern9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dern9\\OneDrive\\Escritorio\\Examen_Web\\Examen\\Examen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dern9\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,17 +46,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[6.0.24, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[6.0.24, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[6.0.24, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
