@@ -29,5 +29,19 @@ namespace Examen.Controllers
             }
             return new JsonResult(usuarios);
         }
+        [HttpPost]
+        public bool LoginMethod([FromBody] string user, string contra)
+        {
+            bool comprobacion = false;
+            using (BancoContext context = new BancoContext())
+            {
+                var existe = context.Usuario.SingleOrDefault(u=>u.NombreUsuario == user && u.Contrasena == contra);
+                if(existe != null)
+                {
+                    comprobacion = true;
+                }
+                return comprobacion;
+            }
+        }
     }
 }

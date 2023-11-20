@@ -13,6 +13,42 @@
       "UpstreamHttpMethod": []
     },
     {
+      "DownstreamPathTemplate": "/ModelCuentas",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7239
+        }
+      ],
+      "UpstreamPathTemplate": "/ModelCuentas",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/ModelMovimientos",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7239
+        }
+      ],
+      "UpstreamPathTemplate": "/ModelMovimientos",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/ModelTarjetas",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7239
+        }
+      ],
+      "UpstreamPathTemplate": "/ModelTarjetas",
+      "UpstreamHttpMethod": []
+    },
+    {
       "DownstreamPathTemplate": "/DTOUsuarios",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
@@ -22,6 +58,42 @@
         }
       ],
       "UpstreamPathTemplate": "/DTOUsuarios",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/DTOTarjetas",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7239
+        }
+      ],
+      "UpstreamPathTemplate": "/DTOTarjetas",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/DTOMovimientos",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7239
+        }
+      ],
+      "UpstreamPathTemplate": "/DTOMovimientos",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/DTOCuentas",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7239
+        }
+      ],
+      "UpstreamPathTemplate": "/DTOCuentas",
       "UpstreamHttpMethod": []
     }
   ],
