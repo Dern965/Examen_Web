@@ -6,28 +6,28 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Examen.Controllers
 {
-    [Route("DTOUsuarios")]
+    [Route("DTOTarjetas")]
     [ApiController]
-    public class DTOUsuarioController : ControllerBase
+    public class DTOTarjetaController : ControllerBase
     {
         [HttpGet]
-        public JsonResult GetUsuarios()
+        public JsonResult GetTarjetas()
         {
-            List<DTO_Usuario> usuarios = new List<DTO_Usuario>();
+            List<DTO_Tarjeta> tarjetas = new List<DTO_Tarjeta>();
 
             using(BancoContext context = new BancoContext())
             {
-                var aux = context.Usuario;
+                var aux = context.Tarjeta;
                 foreach (var item in aux)
                 {
-                    usuarios.Add(new DTO_Usuario
+                    tarjetas.Add(new DTO_Tarjeta
                     {
-                        Nombre = item.Nombre,
-                        NombreUsuario = item.NombreUsuario
+                        Saldo = item.Saldo,
+                        Titular = item.Titular
                     });
                 }
             }
-            return new JsonResult(usuarios);
+            return new JsonResult(tarjetas);
         }
     }
 }
