@@ -58,6 +58,7 @@ namespace Examen.Controllers
                     context.Entry(user).State = EntityState.Modified;
                     context.SaveChanges();
                     comprobacion = true;
+                    /*si*/
                 }
             }
             return new JsonResult(comprobacion);
